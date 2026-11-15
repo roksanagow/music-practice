@@ -1,0 +1,9 @@
+{
+  "name": "music-practice-companion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first multi-instrument practice companion for iPad and GitHub Pages",
+  "scripts": {"test":"node --test tests/*.test.js", "serve":"http-server . -p 4173 -c-1"},
+  "engines": {"node": ">=20"}
+}

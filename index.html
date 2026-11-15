@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="theme-color" content="#f4f0e9"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+  <meta name="description" content="A private, offline-first practice companion for musicians."/>
+  <link rel="icon" href="./public/icon.svg" type="image/svg+xml"/>
+  <link rel="apple-touch-icon" href="./public/icon-192.png"/>
+  <link rel="manifest" href="./manifest.webmanifest"/>
+  <link rel="stylesheet" href="./styles.css"/>
+  <title>Cadence · Music Practice Companion</title>
+</head>
+<body>
+  <div id="app"><div class="loading-screen">Loading your practice library…</div></div>
+  <dialog id="modal" class="modal" aria-label="Edit details"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>

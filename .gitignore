@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+_site/
+*.log
+*.zip
+*.webm
+*.m4a
+*.pdf
+*.mp3
+.env
+.env.*
