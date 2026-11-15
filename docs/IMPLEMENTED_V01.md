@@ -14,7 +14,8 @@ Run `npm test` at project root (Node 20+). The suite currently contains 12 autom
 ## Included UI features (not yet iPad-verified)
 
 - Static, dependency-free installable PWA with an offline service worker, responsive layout, iPad Home Screen icon, and GitHub Pages deployment action.
-- Instrument selection, music library with nested folders and multi-folder piece membership; linked/imported sources.
+- Instrument selection with bundled pastel SVG illustrations, labelled touch-friendly buttons and accessible selected states; matching icons in Settings and piece forms.
+- Music library with nested folders and multi-folder piece membership; linked/imported sources.
 - One piece journal across folder memberships, guided focus prompts, locally auto-saved draft, playback/recording via browser APIs.
 - Flute theory-aware generator with text/staff pitch guide, metronome, generated attempts and manual feedback.
 - Simplified piano theory exercises; guided practice for other instruments where actual tuning/inventory is not configured.

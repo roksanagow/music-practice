@@ -7,7 +7,7 @@ A local-first, installable **Progressive Web App** for deliberate musical practi
 ## What is implemented
 
 - Responsive tablet-friendly navigation: **Today**, **Library**, **Technique**, **Journal**, **Settings**.
-- Five separate instrument profiles, each with editable range and its own repertoire filter.
+- Five separate instrument profiles with pastel illustrated selection buttons, each with editable range and its own repertoire filter.
 - Local **IndexedDB** storage with named, nested folders and multi-folder membership. A piece has one journal regardless of how many folders contain it.
 - Piece title/composer, optional tags, goal, status and priority; PDFs from Files, plus Google Drive/YouTube/other links. Local PDFs are stored on the device and displayed using a browser PDF viewer.
 - Piece journals with guided focus prompts, optional score and passage, improvements, concerns, next action, date and duration. Entries persist; in-progress journal drafts auto-save.

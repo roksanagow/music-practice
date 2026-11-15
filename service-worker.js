@@ -1,5 +1,5 @@
-const CACHE='cadence-app-v1';
-const OFFLINE_FILES=['./','./index.html','./styles.css','./manifest.webmanifest','./public/icon.svg','./public/icon-192.png','./public/icon-512.png','./src/app.js','./src/storage.js','./src/theory.js','./src/backup.js'];
+const CACHE='cadence-app-v2';
+const OFFLINE_FILES=['./','./index.html','./styles.css','./manifest.webmanifest','./public/icon.svg','./public/icon-192.png','./public/icon-512.png','./src/app.js','./src/instrument-icons.js','./src/storage.js','./src/theory.js','./src/backup.js'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(OFFLINE_FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
